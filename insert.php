@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Insert Page page</title>
+	<title>Inserir Dados</title>
 </head>
 
 <body>
