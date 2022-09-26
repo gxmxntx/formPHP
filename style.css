@@ -1,0 +1,72 @@
+.container {
+    padding: 0 50px;
+    text-align: center;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+.imgSenac img{
+    width: 400px;
+}
+
+.boxForm {
+    padding: 20px 0;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form__data {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__data input {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bfbfbf;
+    border-radius: .25rem;
+    transition: .15s ease-in-out, .15s ease-in-out;
+    padding: 10px;
+}
+
+.form__data label {
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 0.8rem;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.titleForm {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.titleForm h3 {
+    margin: 0;
+}
+
+.submitBtn {
+    background-color: #004b8d  !important;
+    color: #fff !important; 
+}
+
+.submitBtn:hover {
+    background-color: #f68b1f !important;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+    .imgSenac img {
+        width: 200px;
+    }
+}
